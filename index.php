@@ -41,6 +41,28 @@
   }
   ?>
 
+  <?php
+
+  // Создание пустого ассоциативного массива
+  // функции array()
+  // $student = array();
+  $student = [];
+
+  // Добавление элементов в массив
+  $student = [
+    // 'name' - это ключ или индекс, значение 'John'
+    // => - это оператор, который связывает ключи и значения в ассоциативном массиве
+    'name' => 'John',
+    'age' => 20,
+    'major' => 'Computer Science'
+  ];
+
+  // Вывод информации о студенте
+  echo "Student Name: " . $student['name'] . "<br>";
+  echo "Student Age: " . $student['age'] . "<br>";
+  echo "Student Major: " . $student['major'] . "<br>";
+  ?>
+
 </body>
 
 </html>
